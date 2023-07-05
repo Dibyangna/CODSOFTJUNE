@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+<div class="cal">
+    <section class="calculator"><div>
+        <input type="text" id="display" disabled>
+    </div></section>
+    <section class="key">
+                <button onclick="handleButton('1')">1</button>
+        <button onclick="handleButton('2')">2</button>
+        <button onclick="handleButton('3')">3</button>
+        <button class="clear" onclick="clearDisplay()">C</button>
+         <button onclick="handleButton('4')">4</button>
+        <button onclick="handleButton('5')">5</button>
+        <button onclick="handleButton('6')">6</button>
+        <button class="operator" onclick="handleButton('/')">÷</button>
+        <button onclick="handleButton('7')">7</button>
+        <button onclick="handleButton('8')">8</button>
+        <button onclick="handleButton('9')">9</button>
+        <button class="operator" onclick="handleButton('*')">x</button>
+         <button onclick="handleButton('0')">0</button>
+        <button class="operator" onclick="handleButton('-')">-</button>
+       
+        <button class="operator" onclick="handleButton('+')">+</button>
+
+        <button class="equals" onclick="calculate()">=</button>
+       
+        <button onclick="handleButton('.')">.</button>
+        
+</div>
+</section>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
